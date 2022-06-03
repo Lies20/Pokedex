@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "poke";
+  src: url('../src/font/Pokemon\ Solid.ttf');
+}
+*{
+  font-family: "poke";
+  /* background: linear-gradient(60deg, orangered 60%, white 60%); */
+}
+.poke{
+ /* background-color: black;
+  */
+  display: inline-block;
+  border-style: solid;
+  border-radius:25px;
+  margin: 20px;
+  background-color:rgb(223, 92, 92);
+  text-align: center;
+  border-width: 3px;
+  transition: transform ease-in-out 150ms;
+}
+
+
+.logo{
+  text-align: center;
+  margin-top:20px;
+  padding-bottom: 15px !important;
+}
+
+.picOfPok{
+  /* background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 52%, rgba(225,46,37,1) 59%); */
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cardpok{
+  text-align: center;
+}
+.stats{
+  display: block;
+  margin-right: 400px;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+header img{
+  margin-left: 200px;
+}
+.nameOfPok{
+  color: rgb(136, 61, 61);
+  font-size: 60px;
+  font-family:"poke";
+  letter-spacing: 0.4rem;
+}
+
+.listOfPokemon{
+  text-align: center;
+  font-size: 25px;
+  padding-left: 2vh;
+  font-family: "poke";
+}
+.poke:hover{
+  transform: translateY(-5px);
+}
+.logo{
+  padding-bottom: 40vh;
+}
+.poke{
+  width: 18rem;
+}
+.imgOfPok{
+  align-items: center;
+}
+.listOfPok{
+  background: linear-gradient(60deg, orangered 60%, white 60%);
+}
